@@ -18,5 +18,8 @@
     <ClInclude Include="include\sslog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
