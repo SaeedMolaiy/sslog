@@ -1,5 +1,6 @@
 #include "memory_macros.h"
-#include "log_manager.h"
+
+#include "manager/log_manager.h"
 
 namespace sslog
 {
@@ -16,7 +17,16 @@ namespace sslog
 	{
 		SAFE_DELETE(_loggerLevel);
 
-		_loggerLevel = new log_type(loggerLevel);
+		_loggerLevel =
+			new log_type(loggerLevel);
+	}
+
+	void log_manager::add_console_logger(const console_logger_options& options)
+	{
+	}
+
+	void log_manager::add_file_logger(const file_logger_options& options)
+	{
 	}
 
 	log_manager::~log_manager()

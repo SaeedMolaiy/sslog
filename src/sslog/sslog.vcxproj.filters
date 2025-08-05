@@ -24,15 +24,33 @@
     <ClInclude Include="include\log_type.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\log_manager.h">
+    <ClInclude Include="include\manager\log_manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\memory_macros.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\options\console_logger_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\options\file_logger_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\options\logger_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\log_manager.cpp">
+    <ClCompile Include="src\manager\log_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\options\logger_options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\options\console_logger_options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\options\file_logger_options.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

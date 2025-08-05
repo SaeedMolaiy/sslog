@@ -20,13 +20,19 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\base.h" />
-    <ClInclude Include="include\log_manager.h" />
+    <ClInclude Include="include\options\console_logger_options.h" />
+    <ClInclude Include="include\options\file_logger_options.h" />
+    <ClInclude Include="include\manager\log_manager.h" />
     <ClInclude Include="include\log_type.h" />
     <ClInclude Include="include\memory_macros.h" />
+    <ClInclude Include="include\options\logger_options.h" />
     <ClInclude Include="include\sslog.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\log_manager.cpp" />
+    <ClCompile Include="src\manager\log_manager.cpp" />
+    <ClCompile Include="src\options\console_logger_options.cpp" />
+    <ClCompile Include="src\options\file_logger_options.cpp" />
+    <ClCompile Include="src\options\logger_options.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
