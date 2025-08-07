@@ -1,5 +1,7 @@
 #pragma once
 
+#include "base.h"
+
 #include "log_type.h"
 
 #include "options/console_logger_options.h"
@@ -7,11 +9,11 @@
 
 namespace sslog
 {
-	class log_manager
+	class SSLOG_API log_manager
 	{
 
 	private:
-		log_type* _loggerLevel = nullptr;
+		log_type _loggerLevel;
 
 	public:
 		log_manager(const log_type& loggerLevel);
