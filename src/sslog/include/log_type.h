@@ -2,7 +2,7 @@
 
 namespace sslog
 {
-	enum class log_type
+	enum class log_type : unsigned char
 	{
 		assert,
 		debug,

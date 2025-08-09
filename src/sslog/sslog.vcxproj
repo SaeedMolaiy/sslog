@@ -20,6 +20,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\base.h" />
+    <ClInclude Include="include\logger\console_logger.h" />
+    <ClInclude Include="include\logger\file_logger.h" />
+    <ClInclude Include="include\logger\logger.h" />
     <ClInclude Include="include\options\console_logger_options.h" />
     <ClInclude Include="include\options\file_logger_options.h" />
     <ClInclude Include="include\manager\log_manager.h" />
@@ -29,6 +32,9 @@
     <ClInclude Include="include\sslog.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\logger\console_logger.cpp" />
+    <ClCompile Include="src\logger\file_logger.cpp" />
+    <ClCompile Include="src\logger\logger.cpp" />
     <ClCompile Include="src\manager\log_manager.cpp" />
     <ClCompile Include="src\options\console_logger_options.cpp" />
     <ClCompile Include="src\options\file_logger_options.cpp" />
